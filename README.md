@@ -2,7 +2,7 @@
 
 ![Lab Setup](https://github.com/user-attachments/assets/f0edf756-9650-4202-9277-ab765c7c81e2)
 
-## 📌 Overview
+##  Overview
 
 Teaching Assistant
 
