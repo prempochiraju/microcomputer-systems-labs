@@ -3,13 +3,15 @@
 ![Lab Setup](https://github.com/user-attachments/assets/f0edf756-9650-4202-9277-ab765c7c81e2)
 
 ## 📌 Overview
-This repository contains my hands-on embedded systems lab work using STM32 (bare-metal) and FreeRTOS.
 
-The focus is on understanding low-level hardware interaction, real-time systems, and communication protocols by building everything from scratch.
+Teaching Assistant
+
+This repository contains the embedded systems labs I designed and taught as a Teaching Assistant for Microcomputer Systems.
+
+The work focuses on STM32 bare-metal programming and FreeRTOS, helping students understand low-level hardware interaction, real-time systems, and communication protocols by building systems from scratch.
 
 ---
 
-## 🧠 Skills Demonstrated
 - Bare-metal programming (register-level)
 - GPIO, Timers, UART, SPI
 - Interrupt handling (NVIC)
@@ -19,7 +21,7 @@ The focus is on understanding low-level hardware interaction, real-time systems,
 
 ---
 
-## 🧰 Hardware Used
+## Hardware Used
 - STM32 Nucleo-F401RE
 - Sensors (ADXL345 Accelerometer)
 - Push buttons, LEDs
@@ -58,7 +60,7 @@ The focus is on understanding low-level hardware interaction, real-time systems,
 
 ---
 
-## 🚀 What I Learned
+##  What I Learned
 - How microcontrollers interact directly with hardware
 - Importance of timing in embedded systems
 - Difference between bare-metal and RTOS approaches
@@ -66,7 +68,7 @@ The focus is on understanding low-level hardware interaction, real-time systems,
 
 ---
 
-## 📈 Future Work
+## Future Work
 - Add I2C communication (sensor + LCD)
 - Implement DMA for high-speed transfers
 - Build complete embedded system projects
@@ -74,7 +76,7 @@ The focus is on understanding low-level hardware interaction, real-time systems,
 
 ---
 
-## 👨‍💻 Author
+##  Author
 Prem Swaroop  
 Master’s in Computer Engineering – Florida Tech  
 
