@@ -1,19 +1,81 @@
-\# Microcomputer Systems Labs
+# Microcomputer Systems Labs
 
+![Lab Setup](https://github.com/user-attachments/assets/f0edf756-9650-4202-9277-ab765c7c81e2)
 
-![WhatsApp Image 2026-03-10 at 9 24 10 PM](https://github.com/user-attachments/assets/f0edf756-9650-4202-9277-ab765c7c81e2)
+## 📌 Overview
+This repository contains my hands-on embedded systems lab work using STM32 (bare-metal) and FreeRTOS.
 
-This repository contains my embedded systems lab projects using STM32 and FreeRTOS.
+The focus is on understanding low-level hardware interaction, real-time systems, and communication protocols by building everything from scratch.
 
+---
 
+## 🧠 Skills Demonstrated
+- Bare-metal programming (register-level)
+- GPIO, Timers, UART, SPI
+- Interrupt handling (NVIC)
+- Real-Time Operating Systems (FreeRTOS)
+- Task scheduling and inter-task communication
+- Embedded debugging and system design
 
-\## Included Projects
+---
 
-\- Lab 6: Timer Interrupts
+## 🧰 Hardware Used
+- STM32 Nucleo-F401RE
+- Sensors (ADXL345 Accelerometer)
+- Push buttons, LEDs
+- Breadboard + jumper wires
 
-\- Lab 7: UART / Student Lab
+---
 
-\- Lab 8: Queue-based RTOS Lab
+## 📂 Lab Projects
 
+### 🔹 Lab 6: Timer Interrupts
+- Configured TIM2 using registers
+- Generated periodic interrupts
+- Used NVIC for interrupt handling
 
+---
 
+### 🔹 Lab 7: UART Communication
+- Implemented UART using register-level programming
+- Transmitted and received data
+- Used for debugging and communication
+
+---
+
+### 🔹 Lab 8: RTOS Queue-Based System
+- Implemented FreeRTOS tasks
+- Used message queues for communication
+- Simulated real-time data processing
+
+---
+
+### 🔹 Lab 9: SPI Communication (Bare-Metal)
+- Implemented SPI without HAL
+- Configured SPI registers (CR1, SR, DR)
+- Interfaced with ADXL345 sensor
+- Demonstrated full-duplex communication
+
+---
+
+## 🚀 What I Learned
+- How microcontrollers interact directly with hardware
+- Importance of timing in embedded systems
+- Difference between bare-metal and RTOS approaches
+- Debugging real hardware issues
+
+---
+
+## 📈 Future Work
+- Add I2C communication (sensor + LCD)
+- Implement DMA for high-speed transfers
+- Build complete embedded system projects
+- Integrate with real-world applications
+
+---
+
+## 👨‍💻 Author
+Prem Swaroop  
+Master’s in Computer Engineering – Florida Tech  
+
+---
