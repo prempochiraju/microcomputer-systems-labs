@@ -1,0 +1,18 @@
+.data 0x10010000
+memsource: .word 10,11,12,13,14,15,16,0
+.data 0x10010020
+memdestin: .space 32
+.text
+.main 
+	la $a0, memsource
+	la $a1, memdestin
+	li $t0, 0
+loop:
+lw $t1, 0($a0)
+sw $t1, 0($a1)
+addi $a0,$a0, 4
+addi $a1, $a1, 4
+beq $t1, $zero, exit
+addi $t0, $t0, 4
+j loop
+exit:
